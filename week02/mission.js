@@ -5,11 +5,10 @@ function changeTheme() {
 
     if (selectedTheme === 'dark'){ // if the value is dark then:
         document.body.classList.add('dark'); // add the dark class to the body
-        const logo = document.querySelector('img'); // change the source of the logo to point to the white logo.
-        logo.src = 'images/byui-logo_white.png'; 
+        const logo = document.querySelector('img');
+        logo.src = 'images/byui-logo_white.png'; // change the source of the logo to point to the white logo.
     } else{ // otherwise
         document.body.classList.remove('dark'); // remove the dark class
-        const logo = document.querySelector('img');
         logo.src = 'images/byui-logo_blue.webp'; // make sure the logo src is the blue logo.
     }
 }
