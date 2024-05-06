@@ -9,6 +9,7 @@ function changeTheme() {
         logo.src = 'images/byui-logo_white.png'; // change the source of the logo to point to the white logo.
     } else{ // otherwise
         document.body.classList.remove('dark'); // remove the dark class
+        const logo = document.querySelector('img');
         logo.src = 'images/byui-logo_blue.webp'; // make sure the logo src is the blue logo.
     }
 }
