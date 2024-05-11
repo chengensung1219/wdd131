@@ -17,6 +17,9 @@ body{
 
 header{
     text-align: center;
+}
+
+nav{
     display: grid;
 }
 
@@ -65,8 +68,9 @@ img {
 }
 
 @media screen and (min-width: 700px){
-    header{
-        display: block;
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
     header h2{
@@ -78,6 +82,10 @@ img {
 }
 
 @media screen and (min-width: 1000px){
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
     }
