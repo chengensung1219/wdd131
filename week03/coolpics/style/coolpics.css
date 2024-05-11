@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
 :root {
     --primary-color: #292929;
-    --secondary-color: #59c3c3;
+    --secondary-color: #0ef;
     --accent-color: white;
     --text-dark: #333;
     --text-light: #ebebeb;
@@ -13,10 +13,6 @@ body{
     font-size: 1.2em;
     max-width: 1400px;
     margin: auto;
-}
-
-a:link, a:visited {
-    color: var(--accent-color);
 }
 
 header{
@@ -41,8 +37,12 @@ header h2{
 }
 
 a{
-    color: white;
     padding: 3px;
+    color: var(--accent-color);
+}
+
+a:hover{
+    color: var(--secondary-color);
 }
 
 main{
