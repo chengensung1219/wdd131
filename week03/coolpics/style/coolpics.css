@@ -33,6 +33,7 @@ header h1{
     font-size: 50px;
     font-family: var(--secondary-font);
     margin: 10px;
+    margin-bottom: 30px;
 }
 
 header h2{
@@ -51,6 +52,10 @@ a:hover{
 main{
     text-align: center;
     margin: auto;
+}
+
+main h2{
+    font-family: var(--secondary-font);
 }
 
 .gallery{
