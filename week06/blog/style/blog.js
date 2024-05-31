@@ -64,7 +64,7 @@ function buildAndOutputArticles(articles, articleMainContent) {
         const articleContentHTML = `
             <h2>${article.title}</h2>
             <img src="${article.imgSrc}" alt="${article.imgAlt}">
-            <p>${article.description}<a href="">Read More...</a></p>
+            <p>${article.description} <a href="">Read More...</a></p>
         `;
         
         articleDetailsElement.innerHTML = articleDetailsHTML;
