@@ -108,6 +108,8 @@ footer a{
     color: var(--primary-color);
     font-family: var(--primary-font);
     font-size: 0.8em;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .social img{
     margin-top: 25px;
@@ -158,5 +160,9 @@ footer a{
         align-self: center;
         text-align: left;
         padding-left: 20px;
+        margin: 0;
+    }
+    body{
+        margin-bottom: 40px;
     }
 }
