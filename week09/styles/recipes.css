@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -105,10 +104,11 @@ h2{
 footer{
     text-align: center;
 }
-.footer a{
+footer a{
     color: var(--primary-color);
     font-family: var(--primary-font);
     font-size: 0.8em;
+    text-decoration: none;
 }
 .social img{
     margin-top: 25px;
