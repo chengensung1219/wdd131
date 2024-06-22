@@ -29,11 +29,13 @@ body{
 }
 
 .searchbar{
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .searchbar input{
     padding: 10px;
@@ -92,8 +94,8 @@ h2{
     margin-bottom: 0;
     color: var(--primary-color);
 }
-.recipe{
-    margin-bottom: 20px;
+#recipe{
+    margin-top: 30px;
 }
 .rating{
     font-size: 1.3em;
@@ -120,19 +122,16 @@ footer a{
 }
 
 @media screen and (min-width: 960px){
-    .recipe{
+    #recipe{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
+        margin-bottom: 0;
     }
 
     .description{
         display: flex;
         font-size: 1.5em;
-    }
-
-    .recipe{
-        margin-bottom: 0;
     }
     
     footer{
