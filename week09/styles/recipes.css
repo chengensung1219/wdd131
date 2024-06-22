@@ -17,6 +17,7 @@ body{
     text-align: center;
 }
 .titleimg{
+    height: 90px;
     width: 90px;
     padding: 0;
 }
