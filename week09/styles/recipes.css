@@ -48,6 +48,7 @@ body{
 .searchbar button img{
     float: left;
     width: 30px;
+    height: 30px;
     padding: 3px;
     color: white;
     font-size: 17px;
@@ -108,7 +109,8 @@ footer a{
 }
 .social img{
     margin-top: 25px;
-    width: 3em;
+    width: 60px;
+    height: 60px;
 }
 
 @media screen and (min-width: 960px){
