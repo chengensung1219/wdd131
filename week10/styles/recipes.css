@@ -9,9 +9,10 @@
     --primary-font: Arial, Helvetica,sans-serif;
     --secondary-font: "Amatic SC";
 }
+
 body{
     max-width: 1600px;
-    margin-bottom: 30px;
+    text-align: center;
 }
 .topnav{
     text-align: center;
@@ -123,6 +124,7 @@ footer a{
 }
 
 @media screen and (min-width: 960px){
+
     #recipe{
         display: grid;
         grid-template-columns: 1fr 1fr;
