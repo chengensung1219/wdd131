@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+header{
+    display: grid;
+    width: 100%;
+    background-color: #292929;
+    grid-template-columns: 1fr 300px 1fr;
+    font-size: 1.2em;
+}
+.left-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/2;
+    width: 100%;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    column-gap: 10px;
+}
+.left-nav a{
+    color: white;
+    position: relative;
+    font-size: 0.8em;
+    min-width: 80px;
+    text-decoration: none;
+    transition: .5s;
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
+    max-width: 180px;
+}
+.left-nav a:hover {
+    color: #0ef;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0ef;
+    border-radius: 15px;
+    transform: scale(1) translateY(-5px);
+    transition: .5s;
+}
+.right-nav{
+    display: grid;
+    grid-template-columns: 1f 1fr;
+    grid-column: 3/4;
+    width: 100%;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    column-gap: 10px;
+}
+.right-nav a{
+    color: white;
+    position: relative;
+    font-size: 0.8em;
+    min-width: 80px;
+    text-decoration: none;
+    transition: .5s;
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
+    max-width: 180px;
+}
+.right-nav a:hover {
+    color: #0ef;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0ef;
+    border-radius: 15px;
+    transform: scale(1) translateY(-5px);
+    transition: .5s;
+}
+.left-nav a{
+    width: 100%;
+    text-decoration: none;
+} 
+.right-nav a{
+    width: 100%;
+    text-decoration: none;
+} 
+.tag1{
+    display: grid;
+    grid-column: 1/2;
+    align-self: center;
+    margin: auto;
+}
+.tag2{
+    display: grid;
+    grid-column: 2/3;
+    align-self: center;
+    margin: auto;
+}
+.tag3{
+    display: grid;
+    grid-column: 1/2;
+    align-self: center;
+    margin: auto;
+}
+.tag4{
+    display: grid;
+    grid-column: 2/3;
+    align-self: center;
+    margin: auto;
+}
+.logo{
+    grid-column: 2/3;
+    width: 100px;
+    margin: 0 auto;
+    align-self: center;
+    z-index: 2;
+    padding: 20px;
+}
+.cover_img{
+    width: 100%;
+    margin-top: -125px;
+}
+body{
+    max-width: 1600px;
+    margin: auto;
+    text-align: center;
+}
+.top-section{
+    margin: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0%;
+    right: 0%;
+}
+.home-title{
+    font-size: 3.5em;
+}
+.top-section p{
+    font-family:'Anta', Courier, monospace;
+    font-size: 1.8em;
+    color: white;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    
+}
+#see-more{
+    background-color: white;
+    color: #292929;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: 'Anta', Courier, monospace;
+    transform: scale(1) translateY(-5px);
+    transition: .5s;
+    font-weight: bold;
+}
+#see-more:hover{
+    background-color: #0ef;
+    color: white;
+}
+#purpose{
+    display: grid;
+    grid-template-columns: 15% 1fr 50px 1fr 15%;
+    grid-template-rows: 50px 50px 1fr 50px;
+    margin: 50px;
+}
+#purpose img{
+    width: 80%;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    align-self: center;
+}
+#purpose h2{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    align-self: center;
+}
+#purpose p{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    font-size: 20px;
+    align-self: center;
+    padding-top: 30px;
+    font-family: 'Anta', Courier, monospace;
+    font-weight: 400;
+    line-height: 1.6em;
+    text-align: justify;
+}
+#about-us{
+    background-color: #292929;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: 'Anta', Courier, monospace;
+    transform: scale(1) translateY(-5px);
+    transition: .5s;
+    font-weight: bold;
+}
+#about-us:hover{
+    background-color: #0ef;
+    color: white;
+}
+h1{
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+}
+h2{
+    padding-top: 50px;
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
+    color: #292929;
+    font-size: 40px;
+}
+
+.small-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 80px 1fr 1fr;
+    grid-template-rows: 1fr 50px 1fr;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.offer-photos{
+    width: 400px
+}
+.section1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+}
+.section2{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    align-self: center;
+}
+.section3{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: center;
+}
+.section4{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    align-self: center;
+}
+i{
+    color: white;
+    font-size: 35px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+i:hover{
+    color: #0ef;
+    text-decoration: none;
+}
+footer{
+    height: 100px;
+    color: white;
+    background-color: #292929;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 1em;
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #0ef;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    body{
+        margin: auto;
+        text-align: center;
+    }
+    header, #top-div, #purpose, #map, .small-main, footer{
+        display: block;
+        height: auto;
+    }
+    .left-nav {
+        display: block;
+        width: 200px;
+        padding-top: 5px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .right-nav {
+        display: block;
+        width: 200px;
+        padding-top: 10px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .left-nav a {
+        display: block;
+        height: auto;
+        align-self: center;
+    }
+    .right-nav a {
+        display: block;
+        height: auto;
+    }
+    .tag1{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag2{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag3{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag4{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .cover_img{
+        margin-top: -10px;
+    }
+    .logo{
+        padding: 0;
+    }
+    #purpose img{
+        width: 45%;
+    }
+    #top-div {
+        margin-top: 0;
+    }
+    .top-section {
+        margin-top: 0px;
+        position: absolute;
+        top: 300px;
+    }
+    .top-section p {
+        font-size: 1.2em;
+    }
+    .home-title {
+        font-size: 30px;
+    }
+    #see-more{
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    .section1, .section2, .section3, .section4 { 
+        margin: 50px auto;
+        width: 100%;
+    }
+    .map{
+        width: 80%;
+    }
+    footer {
+        display: block;
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 25px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
