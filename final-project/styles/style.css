@@ -254,10 +254,18 @@ footer a:hover{
         padding: 0;
         padding-top: 10px;
         padding-bottom: 10px;
+        width: 156px;
+        height: 35px;
         
     }
     #purpose img{
         width: 45%;
+    }
+    #purpose h2{
+        font-size: 1.8em;
+    }
+    #purpose p{
+        font-size: 1.1em;
     }
     .top-section {
         margin-top: 0px;
@@ -275,8 +283,7 @@ footer a:hover{
     }
     .section1, .section2, .section3, .section4 { 
         margin: 50px auto;
-        width: 80%;
-        height: 80%;
+        width: 90%;
     }
     footer {
         background-color: #292929;
