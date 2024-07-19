@@ -217,7 +217,7 @@ footer a:hover{
     #see-more, .cover_img, .home-title, .sub-title{
         display: none;
     }
-    #map, .small-main, footer{
+    .small-main, footer{
         display: block;
         height: auto;
     }
@@ -247,16 +247,12 @@ footer a:hover{
         display: block;
         padding-top: 150px;
     }
-    .cover_img{
-        margin-top: -10px;
-    }
     .logo{
         padding: 0;
         padding-top: 10px;
         padding-bottom: 10px;
         width: 156px;
         height: 35px;
-        
     }
     #purpose img{
         width: 45%;
@@ -266,14 +262,6 @@ footer a:hover{
     }
     #purpose p{
         font-size: 1.1em;
-    }
-    .top-section {
-        margin-top: 0px;
-        position: absolute;
-        top: 300px;
-    }
-    .top-section p {
-        font-size: 1.2em;
     }
     #see-more{
         font-size: 18px;
