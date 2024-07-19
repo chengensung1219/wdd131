@@ -203,6 +203,9 @@ footer a:hover{
     #gallery{
         padding-top: 200px;
     }
+    .row {
+        width: 90%;
+    }
     footer {
         background-color: #292929;
         display: block;
