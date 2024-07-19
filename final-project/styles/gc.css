@@ -138,7 +138,7 @@ main{
   }
   
   /* Style the buttons */
-.btn {
+#btn1, #btn2, #btn4{
     border: none;
     outline: none;
     padding: 10px 16px;

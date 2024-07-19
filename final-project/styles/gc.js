@@ -39,3 +39,11 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
     });
 }
+
+const btn1 = document.getElementById("btn1")
+const btn2 = document.getElementById("btn2")
+const btn4 = document.getElementById("btn4")
+
+btn1.addEventListener('click', one)
+btn2.addEventListener('click', two)
+btn4.addEventListener('click', four)
