@@ -119,24 +119,18 @@ main{
     padding-top: 20px;
 }
 .row {
-    display: -ms-flexbox; /* IE 10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-    width: 60%;
-    margin: auto;
-    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 300px 300px 1fr;
+    gap: 40px;
 }
-  
-  /* Create two equal columns that sits next to each other */
-.column {
-    -ms-flex: 50%; /* IE 10 */
-    flex: 50%;
-    padding: 0 4px;
+.column1{
+    grid-column: 2/3;
+}
+.column2{
+    grid-column: 3/4;
 }
 
-.column img {
+.column1 img, .column2 img {
     margin-top: 8px;
     vertical-align: middle;
 }
@@ -211,8 +205,18 @@ footer a:hover{
     #gallery{
         padding-top: 200px;
     }
-    .row {
-        width: 70%;
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 300px 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .column1{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .column2{
+        grid-column: 2/3;
+        grid-row: 2/3;
     }
     footer {
         background-color: #292929;
