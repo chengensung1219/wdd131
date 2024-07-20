@@ -1,8 +1,8 @@
 
 function viewerTemplate(pic, alt) {
     return `<div class="viewer">
-      <button class="close-viewer">X</button>
-      <img class="big-img" src="${pic}" alt="${alt}"></div>`;
+        <button class="close-viewer">X</button>
+        <img class="big-img" src="${pic}" alt="${alt}"></div>`;
 }
 
 function viewHandler(event) {

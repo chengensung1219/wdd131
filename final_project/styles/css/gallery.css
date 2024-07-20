@@ -150,6 +150,7 @@ footer a:hover{
     right: 0;
     display: grid;
     margin: auto;
+    z-index: 3;
 }
 .close-viewer{
     background-color: white;
@@ -169,6 +170,10 @@ footer a:hover{
 
 @media screen and (min-width: 900px){
 
+    body div{
+        text-align: center;
+        margin: 0;
+    }
     header{
         max-width: 1600px;
         width: 100%;
@@ -277,12 +282,6 @@ footer a:hover{
         grid-column: 3/4;
         grid-row: 2/3;
     }
-    .viewer{
-        max-width: 1000px;
-        width: 90%;
-        height: 80%;
-        padding: 20px;
-    }
 }
 
 
@@ -325,5 +324,11 @@ footer a:hover{
     .social a{
         padding-left: 3px;
         padding-right: 3px;
+    }
+    .viewer{
+        max-width: 1000px;
+        width: 90%;
+        height: 90%;
+        padding: 20px;
     }
 }
