@@ -98,7 +98,8 @@ body{
     margin: 50px;
 }
 #purpose img{
-    width: 80%;
+    width: 300px;
+    height: 255px;
     grid-column: 2/3;
     grid-row: 2/4;
     align-self: center;
@@ -395,7 +396,10 @@ button:hover {
         height: 55px;
     }
     #purpose img{
-        width: 45%;
+        padding: 0;
+        margin-top: -100px;
+        width: 350px;
+        height: 300px;
     }
     #purpose h2{
         font-size: 1.8em;
@@ -427,8 +431,12 @@ button:hover {
         border-radius: 10px;
     }
 }
-@media (max-width: 568px) {
+@media (max-width: 600px) {
     .columns div {
         width: 100%;
+    }
+    #purpose img{
+        width: 200px;
+        height: 170px;
     }
 }
