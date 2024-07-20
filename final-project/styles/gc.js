@@ -6,8 +6,8 @@ var i;
 // Four images side by side
 function four() {
     for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%";  // IE10
-    elements[i].style.flex = "25%";
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
     }
 }
 
