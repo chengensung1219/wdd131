@@ -110,13 +110,6 @@ h1{
     font-size: 3em;
     color: #292929;
 }
-h2{
-    padding-top: 50px;
-    font-family: 'Anta', Courier, monospace;
-    font-weight: bold;
-    color: #292929;
-    font-size: 40px;
-}
 main{
     text-align: center;
     margin: 0;
@@ -139,11 +132,6 @@ main{
 }
 .column4{
     grid-column: 5/6;
-}
-
-.column1 img, .column2 img, .column3 img, .column4 img{
-    margin-top: 40px;
-    vertical-align: middle;
 }
 
 a i{
