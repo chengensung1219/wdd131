@@ -14,7 +14,7 @@
         <header>
             <img class="logo" src="./homepage-images/new logo.png" alt="VisionCrafters Studio">
             <a class="tag1" href="index.html">Home</a>
-            <a class="tag2" href="gallery.html">Gallery and Contact</a>
+            <a class="tag2" href="gallery.html">Gallery</a>
         </header>
         <main>
             <div id="top-div">
@@ -22,8 +22,8 @@
                 <section class="top-section">
                     <h1 class="home-title">Wanna to get professional photos?</h1>
                     <p class="sub-title">Here is the right place to reach up.</p>
-                    <div>
-                        <a id="see-more" href="#purpose">See More</a>
+                    <div class="btn-seemore">
+                        <a class="see-more" href="#purpose">See More</a>
                     </div>
                 </section>
             </div>
@@ -33,28 +33,81 @@
                     <h2>Our purpose</h2>
                     <p>We aim to help capture and preserve memories for various occasions. From documenting academic achievements to immortalizing love stories, these professionals ensure every moment is beautifully captured. Whether it's individual portraits, group photos, or candid shots, their expertise creates lasting mementos for clients to cherish.</p>
                 </div>
-                <div>
-                    <a id="about-us" href="aboutus.html">About Me</a>
-                </div>
             </section>
             <div id="bottom-div">
-                <h2>What are we offer?</h2>
-                <div class="small-main">
-                    <section class="section1">
-                        <img class="offer-photos" src="images/Black Beige Minimalist  Photography Portfolio Cover Page.png" alt="">
-                    </section>
-                    <section class="section2">
-                        <img class="offer-photos" src="images/wedding photos.png" alt="">
-                    </section>
-                    <section class="section3">
-                        <img class="offer-photos" src="images/7.png" alt="">
-                    </section>
-                    <section class="section4">
-                        <img class="offer-photos" src="images/12.png" alt="">
-                    </section>
+                <div class="btn-seemore">
+                    <a class="see-more" href="./gallery.html" style="background-color: #292929; color: white; margin-top:0; margin-bottom: 40px">See More</a>
                 </div>
+                <h2>Contact Form</h2>
             </div>
         </main>
+        <div class="testbox">
+            <form>
+                <fieldset class="customers">
+                    <legend> Customer Information </legend>
+                    <div class="Customer">
+                        <div class="item">
+                            <label for="fullname"> Full Name <span>*</span></label>
+                            <input id="fullname" type="text" name="fullname" value="" required />
+                        </div>
+                        <div class="item">
+                            <label for="email">Email<span>*</span></label>
+                            <input id="email" type="text" name="email" />
+                        </div>
+                        <div class="item">
+                            <label for="phone">Phone<span>*</span></label>
+                            <input id="phone" type="tel" name="fee" />
+                        </div>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="activities">
+                    <legend> Activity Information </legend>
+                    <section class="activity1">
+                        <p>Activity 1</p>
+                        <div class="item">
+                            <label for="adult_name">Activity<span>*</span></label>
+                            <input id="adult_name" type="text" name="adult_name" />
+                        </div>
+    
+                        <div class="item">
+                            <label for="address">Address<span>*</span></label>
+                            <input id="address" type="text" name="address1" />
+                        </div>
+    
+                        <div class="item">
+                            <label for="city">City<span>*</span></label>
+                            <input id="city" type="text" name="city" />
+                        </div>
+                        <div class="item">
+                            <label for="state">State<span>*</span></label>
+                            <input id="state" type="text" name="state" />
+                        </div>
+                        <div class="item">
+                            <label for="eaddress">Email Address<span>*</span></label>
+                            <input id="eaddress" type="text" name="eaddress" />
+                        </div>
+                        <div class="item">
+                            <label for="phone">Phone<span>*</span></label>
+                            <input id="phone" type="tel" name="phone" />
+                        </div>
+                        <div class="item">
+                            <label for="zip">Zip<span>*</span></label>
+                            <input id="zip" type="text" name="zip" />
+                        </div>
+                        <div class="item">
+                            <label for="date">Desired Date <span>*</span></label>
+                            <input id="date" type="date" name="date" />
+                        </div>
+                        <button type="button" id="add" style="height: 40px; margin-top: 30px">Add Activity</button>
+                    </section>
+                </fieldset>
+                <div class="btn-block">
+                    <button type="submit" id="submitButton">Submit</button>
+                </div>
+            </form>
+            <section id="summary"></section>
+        </div>
         <footer>
             <p><a href="site-plan.html" target="_blank">VisionCrafters Studio &copy; 2024 - Cheng-En Sung</a></p>
             <p><a href="index.html" target="_blank">Home</a></p>
