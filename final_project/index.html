@@ -66,8 +66,8 @@
                     <section class="activity1">
                         <p>Activity 1</p>
                         <div class="item">
-                            <label for="adult_name">Activity<span>*</span></label>
-                            <input id="adult_name" type="text" name="adult_name" />
+                            <label for="name">Activity<span>*</span></label>
+                            <input class="name" type="text" name="name" />
                         </div>
     
                         <div class="item">
@@ -84,20 +84,12 @@
                             <input id="state" type="text" name="state" />
                         </div>
                         <div class="item">
-                            <label for="eaddress">Email Address<span>*</span></label>
-                            <input id="eaddress" type="text" name="eaddress" />
-                        </div>
-                        <div class="item">
-                            <label for="phone">Phone<span>*</span></label>
-                            <input id="phone" type="tel" name="phone" />
-                        </div>
-                        <div class="item">
-                            <label for="zip">Zip<span>*</span></label>
-                            <input id="zip" type="text" name="zip" />
-                        </div>
-                        <div class="item">
                             <label for="date">Desired Date <span>*</span></label>
                             <input id="date" type="date" name="date" />
+                        </div>
+                        <div class="item">
+                            <label for="message">Message<span>*</span></label>
+                            <input id="message" type="text" name="message" />
                         </div>
                         <button type="button" id="add" style="height: 40px; margin-top: 30px">Add Activity</button>
                     </section>
@@ -113,6 +105,12 @@
             <p><a href="index.html" target="_blank">Home</a></p>
             <p><a href="gallery.html" target="_blank">Gallery and Contact</a></p>
         </footer>
+    </div>
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-summary"></div>
+        </div>
     </div>
 </body>
 </html>
