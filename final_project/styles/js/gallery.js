@@ -82,18 +82,41 @@ function renderPhotos(photoList) {
     outputElement3.innerHTML = '';
     outputElement4.innerHTML = '';
 
+    
     const columns = photoList.map(photo => photo.column);
+    let j = 1
     for (let i = 0; i < columns.length; i++) {
-        const photoHTML = photoTemplate(photoList[i]);
-        
-        if (columns[i] === 'column1') {
-            outputElement1.innerHTML += photoHTML;
-        } else if (columns[i] === 'column2') {
-            outputElement2.innerHTML += photoHTML;
-        } else if (columns[i] === 'column3') {
-            outputElement3.innerHTML += photoHTML;
+        if (columns.length < photos.length){
+            let column1 = [1, 5, 9, 13, 17, 21];
+            let column2 = [2, 6, 10, 14, 18, 22];
+            let column3 = [3, 7, 11, 15, 19, 23];
+            let column4 = [4, 8, 12, 16, 20, 24];
+            const photoHTML = photoTemplate(photoList[i]);
+            if (column1.includes(j)){
+                outputElement1.innerHTML += photoHTML;
+                j += 1
+            } else if (column2.includes(j)) {
+                outputElement2.innerHTML += photoHTML;
+                j += 1
+            } else if (column3.includes(j)) {
+                outputElement3.innerHTML += photoHTML;
+                j += 1
+            } else {
+                outputElement4.innerHTML += photoHTML;
+                j += 1
+            }
         } else {
-            outputElement4.innerHTML += photoHTML;
+            const photoHTML = photoTemplate(photoList[i]);
+        
+            if (columns[i] === 'column1') {
+                outputElement1.innerHTML += photoHTML;
+            } else if (columns[i] === 'column2') {
+                outputElement2.innerHTML += photoHTML;
+            } else if (columns[i] === 'column3') {
+                outputElement3.innerHTML += photoHTML;
+            } else {
+                outputElement4.innerHTML += photoHTML;
+            }
         }
     }
 }
