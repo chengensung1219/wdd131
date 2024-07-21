@@ -28,7 +28,6 @@ export function activityTemplate(count) {
                 <label for="message${count}">Message<span>*</span></label>
                 <input id="message${count}" type="text" name="message${count}" placeholder="Another Request/Information"/>
             </div>
-            <button type="button" id="add" style="height: 40px; margin-top: 30px">Add Activity</button>
         </section>
     `;
 }

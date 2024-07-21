@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./homepage-images/black logo.png">
     <title>Gallery</title>
     <link rel="stylesheet" href="./styles/css/gallery.css">
-    <script src="./styles/js/gallery.js" defer></script>
+    <script src="./styles/js/gallery.js" defer type = "module"></script>
 </head>
 <body>
     <div>
@@ -19,7 +19,7 @@
         </header>
         <main>
             <div id="top-div">
-                <img class="cover_img" src="./galleryimg/DSC00611-min.jpg" alt="">
+                <img class="cover_img" src="./galleryimg/DSC00611-min.jpg" loading="lazy" alt="cover-img">
                 <section class="top-section">
                     <h1 class="home-title">What kind of portfolio do I have?</h1>
                     <p class="sub-title">Click on the buttons to see more photos.</p>
@@ -30,86 +30,18 @@
             </div>
             <div id="gallery">
                 <h1 class="gallery-title">Gallery</h1>
+                <form class="searchbar" action="action_page.php">
+                    <input class="search-input" type="text" placeholder="Search for the keyword..." name="search">
+                    <button class="btn-search" type="submit"><img src="./gallery_page/search.svg" alt="Search Icon"></button>
+                </form>
                 <div class="row"> 
-                    <section class="column1">
-                        <figure>
-                            <img class="vertical_img" src="./galleryimg/DSC00001-min.jpg" loading="lazy" alt="Image 1">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC00273-min.jpg" loading="lazy" alt="Image 2">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC01154-min.jpg" loading="lazy" alt="Image 3">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC08485-min.jpg" loading="lazy" alt="Image 4">
-                        </figure>
-                        <figure>
-                            <img class="vertical_img" src="./galleryimg/DSC00416-min.jpg" loading="lazy" alt="Image 5">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/IMG_3755-min.jpg" loading="lazy" alt="Image 6">
-                        </figure>
+                    <section id="column1">
                     </section>
-                    <section class="column2">
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC00003-min.jpg" loading="lazy" alt="Image 7">
-                        </figure>
-                        <figure>
-                            <img class="vertical_img" src="./galleryimg/DSC00106-min.jpg" loading="lazy" alt="Image 8">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC00843-min.jpg" loading="lazy" alt="Image 9">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC00888-min.jpg" loading="lazy" alt="Image 10">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC01138-min.jpg" loading="lazy" alt="Image 11">
-                        </figure>
-                        <figure>
-                            <img class="vertical_img" src="./galleryimg/DSC05486-min.jpg" loading="lazy" alt="Image 12">
-                        </figure>
+                    <section id="column2">
                     </section>  
-                    <section class="column3">
-                        <figure>
-                            <img class="vertical_img" src="./galleryimg/DSC00402-min.jpg" loading="lazy" alt="Image 13">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC01264-min.jpg" loading="lazy" alt="Image 14">
-                        </figure>
-                        <figure>
-                            <img class="vertical_img" src="./galleryimg/DSC00188-min.jpg" loading="lazy" alt="Image 15">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC00002-min.jpg" loading="lazy" alt="Image 16">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC05998-min.jpg" loading="lazy" alt="Image 17">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC05520-min.jpg" loading="lazy" alt="Image 18">
-                        </figure>
+                    <section id="column3">
                     </section>  
-                    <section class="column4">
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC06325-min.jpg" loading="lazy" alt="Image 19">
-                        </figure>
-                        <figure>
-                            <img class="vertical_img" src="./galleryimg/DSC00376-min.jpg" loading="lazy" alt="Image 20">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC00403-min.jpg" loading="lazy" alt="Image 21">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC01082-min.jpg" loading="lazy" alt="Image 22">
-                        </figure>
-                        <figure>
-                            <img class="horizontal_img" src="./galleryimg/DSC01261-min.jpg" loading="lazy" alt="Image 23">
-                        </figure>
-                        <figure>
-                            <img class="vertical_img" src="./galleryimg/IMG_4664-min.jpg" loading="lazy" alt="Image 24">
-                        </figure>
+                    <section id="column4">
                     </section>
                 </div>
             </div>
