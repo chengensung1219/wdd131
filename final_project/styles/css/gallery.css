@@ -226,6 +226,7 @@ footer a:hover{
     }
     .cover_img{
         width: 100%;
+        height: 100%;
         margin-top: -150px;
     }
     .cover_img, .home-title, .sub-title{
