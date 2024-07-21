@@ -28,7 +28,7 @@ header a {
     padding-bottom: 8px;
     font-size: 0.8em;
     transition: .5s;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif, Tahoma, Geneva, Verdana;
     font-weight: bold;
     text-decoration: none;
     color: white;
@@ -46,12 +46,15 @@ header a:hover {
     transform: scale(1) translateY(-5px);
     transition: .5s;
 }
+p{
+    font-family: Arial;
+}
 main{
     text-align: center;
     margin: 0;
 }
 .gallery-title{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif, Tahoma, Geneva, Verdana;
     font-weight: bold;
     font-size: 3em;
     color: #292929;
@@ -119,7 +122,7 @@ footer {
 
 footer p{
     font-size: 1em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif, Tahoma, Geneva, Verdana;
     font-weight: bold;
 }
 footer a{
@@ -208,7 +211,7 @@ footer a:hover{
         min-width: 80px;
         text-decoration: none;
         transition: .5s;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: sans-serif, Tahoma, Geneva, Verdana;
         font-weight: bold;
         max-width: 180px;
         width: 100%;
@@ -247,7 +250,7 @@ footer a:hover{
         color: white;
     }
     .top-section p{
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family:sans-serif, Tahoma, Geneva, Verdana;
         font-size: 1.8em;
         color: white;
         margin-top: -20px;
@@ -263,7 +266,7 @@ footer a:hover{
         padding: 15px 30px;
         margin-top: 50px;
         border-radius: 10px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: sans-serif, Tahoma, Geneva, Verdana;
         transform: scale(1) translateY(-5px);
         transition: .5s;
         font-weight: bold;
@@ -273,7 +276,7 @@ footer a:hover{
         color: white;
     }
     h1{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: sans-serif, Tahoma, Geneva, Verdana;
         font-weight: bold;
         font-size: 3em;
         color: #292929;
