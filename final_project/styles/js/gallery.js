@@ -36,7 +36,7 @@ gallerySection.addEventListener('click', viewHandler);
 function photoTemplate(photo) {
     return `
         <figure>
-            <img class="${photo.photoTypes}" src="${photo.image}" loading="lazy" alt="${photo.name}">
+            <img class="${photo.photoTypes}" src="${photo.image}" alt="${photo.name}">
         </figure>`
 }
 
@@ -48,29 +48,26 @@ searchForm.addEventListener('submit', searchHandler);
 function searchHandler(event) {
     event.preventDefault();
 
-    // Get the search input value and convert to lowercase
     const query = searchInput.value.toLowerCase();
 
-    // Filter recipes based on the query
     const filteredPhotos = filterPhotos(query);
 
-    // Render the filtered recipes
     renderPhotos(filteredPhotos);
 }
 
 function filterPhotos(query) {
-    // Use Array.filter() to filter recipes based on the query
+
     return photos.filter(photo => {
-        // Check if query is found in recipe name, description, tags, or ingredients
+
         const isInEvents = photo.events.some(event => event.toLowerCase().includes(query));
         const isInSubjects = photo.subjects.some(subject => subject.toLowerCase().includes(query));
         const isInBackgrounds = photo.backgrounds.some(background => background.toLowerCase().includes(query));
         const isInTypes = photo.types.some(type => type.toLowerCase().includes(query));
 
-        // Return recipes that match any of the criteria
+
         return isInEvents || isInSubjects || isInBackgrounds || isInTypes;
     }).sort((a, b) => {
-        // Sort alphabetically by recipe name
+
         return a.name.localeCompare(b.name);
     });
 }
